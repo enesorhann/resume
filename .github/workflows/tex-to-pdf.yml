@@ -45,7 +45,7 @@ jobs:
 
           # Clone the target repository using PAT
           git clone https://${{ github.actor }}:${PAT_TOKEN}@github.com/enesorhann/enesorhann-com.git
-          cd onurravli-com
+          cd enesorhann-com
 
           # Create public folder if it doesn't exist
           mkdir -p public
@@ -56,4 +56,4 @@ jobs:
           # Commit and push to target repository
           git add public/Enes_Orhan_Resume.pdf
           git commit -m "docs: update resume from automated build" || echo "No changes to commit"
-          git push https://${{ github.actor }}:${PAT_TOKEN}@github.com/onurravli/onurravli-com.git master
+          git push https://${{ github.actor }}:${PAT_TOKEN}@github.com/enesorhann/enesorhann-com.git master
