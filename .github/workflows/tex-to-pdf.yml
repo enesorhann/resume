@@ -34,26 +34,3 @@ jobs:
           git add Enes_Orhan_Resume.pdf
           git commit -m "docs: update resume" || echo "No changes to commit"
           git push https://${{ github.actor }}:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
-
-      - name: Push PDFs to enesorhann-com repository
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: |
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git config --global user.name "${{ github.actor }}"
-
-          # Clone the target repository using PAT
-          git clone https://${{ github.actor }}:${PAT_TOKEN}@github.com/enesorhann/enesorhann-com.git
-          cd enesorhann-com
-
-          # Create public folder if it doesn't exist
-          mkdir -p public
-
-          # Copy PDFs to public folder
-          cp ../Enes_Orhan_Resume.pdf public/Enes_Orhan_Resume.pdf
-
-          # Commit and push to target repository
-          git add public/Enes_Orhan_Resume.pdf
-          git commit -m "docs: update resume from automated build" || echo "No changes to commit"
-          git push https://${{ github.actor }}:${PAT_TOKEN}@github.com/enesorhann/enesorhann-com.git master
