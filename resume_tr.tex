@@ -1,0 +1,132 @@
+\documentclass[10pt,a4paper]{extarticle}
+\pagenumbering{gobble}
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[turkish,shorthands=off]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{datetime}
+\usepackage{graphicx}
+
+\titleformat{\section}{\large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+\newcommand{\entry}[2]{%
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textbf{#1} & #2\\
+\end{tabular*}
+}
+\newcommand{\subentry}[2]{%
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textit{#1} & #2\\
+\end{tabular*}
+}
+
+\begin{document}
+
+\begin{center}
+\begin{minipage}{\textwidth}
+\centering
+{\LARGE\textbf{Enes Orhan}} \hspace{2pt} {\LARGE{Backend \& Mobile Engineer}}\\[10pt]
+\href{mailto:enesorhann404@gmail.com}{enesorhann404@gmail.com} \textbullet\
+\href{https://linkedin.com/in/enesorhann}{linkedin.com/in/enesorhann} \textbullet\
+\href{https://github.com/enesorhann}{github.com/enesorhann} \textbullet\
+\href{https://enesorhan.com}{enesorhan.com}
+\end{minipage}
+\end{center}
+
+\section{Özet}
+14M+ ürün kaydı ve büyük ölçekli e-ticaret veri setleri üzerinde çalışan, ölçeklenebilir production sistemleri geliştirme deneyimine sahip Backend \& Mobile Engineer.
+Yüksek performanslı API tasarımı (~200ms ortalama yanıt süresi), ML tabanlı microservice'ler ve Kubernetes tabanlı (kubeadm) deployment süreçlerinde uzmanlaştım.
+Mimari tasarımdan performans optimizasyonuna, production hata ayıklamadan release yönetimine kadar backend yaşam döngüsünün tamamına sahiplik ettim.
+10.000+ indirme sayısına ulaşan mobil uygulamalar geliştirdim ve binlerce kuruma hizmet veren B2B sistemlere destek verdim.
+
+\section{Başarımlar}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+\item 14M+ ürün kaydı üzerinde çalışan backend sistemlerini optimize ederek ortalama API yanıt süresini ~450ms'den ~200ms'ye düşürdüm.
+\item 12M+ görsel, 529K+ kategori, 182K+ marka ve 3.344 mağaza içeren production sistemlerine katkı sağladım.
+\item \%95 doğruluk oranına ulaşan ML tabanlı kategori eşleştirme microservice'i geliştirdim.
+\item Redis caching ile FAISS tabanlı vektör arama pipeline'ı kurarak sorgulama gecikmesini iyileştirdim.
+\item Süresi dolmuş premium kullanıcıların erişimini koruyabildiği abonelik doğrulama mantığındaki hatayı tespit ederek çözdüm.
+\item kubeadm ile Kubernetes cluster'ları kurdum ve kubectl üzerinden pod hatalarını teşhis ettim.
+\item 10.000+ toplam indirmeye ulaşan mobil uygulamalar yayınladım ve bakımını üstlendim.
+\item Kendi sunucumuzda barındırılan mail altyapısını (SPF, DKIM, DMARC) tasarladım ve işlettim.
+\end{itemize}
+
+\section{Deneyim}
+
+\entry{Freelance Software Developer}{Remote}
+\subentry{Backend Engineer}{Ekim 2025 -- Devam ediyor}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+\item RBAC tabanlı iş akışlarıyla 3.000+ şirketi destekleyen çok kiracılı (multi-tenant) Django REST backend mimarisi kurdum.
+\item Kurum bazlı finansal operasyonları yöneten ~100 aktif kullanıcı için backend iş akışları tasarladım.
+\item Param ve PayTR entegrasyonları için backend ödeme altyapısını hazırlayarak işlem doğrulama ve callback yönetim mantığını tasarladım.
+\item Celery + Redis ile asenkron arka plan işleme süreçlerini hayata geçirdim.
+\item Elasticsearch tabanlı filtreleme ve arama sistemlerini entegre ettim.
+\item Tam e-posta kimlik doğrulama yığınıyla production seviyesinde mail sunucusu (Postfix + Dovecot) tasarladım ve işlettim.
+\item kubeadm ile Kubernetes cluster'ları kurup yapılandırdım; deployment'ları ve production hata ayıklamayı kubectl üzerinden yönettim.
+\item Mimari tasarımdan production release ve izlemeye kadar uçtan uca ticari backend sistemleri teslim ettim.
+\end{itemize}
+
+\entry{Fiyator A.Ş. \textit{(Ankara, Türkiye)} \textnormal{---} \href{https://fiyator.com}{fiyator.com}}{Remote}
+\subentry{Full-Stack Mobile Developer Intern}{Haziran 2025 -- Ekim 2025}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+\item 14M+ ürün kaydı, 12M+ görsel, 529K+ kategori ve 182K+ marka üzerinde çalışan backend sistemlerine katkı sağladım.
+\item Çoğunluğu şirket hesaplarından oluşan 456 aktif kullanıcıya hizmet veren production ortamını destekledim.
+\item PostgreSQL indeksleme ve Redis caching ile ortalama API yanıt süresini ~450ms'den ~200ms'ye düşürdüm.
+\item Büyük ölçekli ürün veri setlerinde yüksek performanslı filtreleme sağlayan Elasticsearch entegrasyonunu gerçekleştirdim.
+\item Semantic Transformers ve Jaccard benzerliği kullanarak \%95 doğruluğa ulaşan ML tabanlı kategori eşleştirme microservice'i (Django + FastAPI) geliştirdim.
+\item Kategori sorgulama performansını iyileştirmek için Redis caching ile FAISS tabanlı vektör arama pipeline'ı tasarladım.
+\item Akıllı ürün özelliği çıkarımı için Ollama (gemma3n:e2b) kullanan FastAPI microservice geliştirdim.
+\item Süresi dolmuş premium kullanıcıların erişimini koruyabildiği abonelik doğrulama mantığındaki hatayı tespit ederek çözdüm.
+\item Güvenli kimlik doğrulama ve token yenileme mekanizmaları (JWT interceptor mimarisi) tasarladım.
+\item Kapsamlı testlerle 45+ fonksiyonel ve UI/UX sorununu tespit edip dokümante ettim.
+\item Responsive UI iyileştirmelerini de kapsayan kapsamlı bir Flutter mobil yeniden tasarım sürecini yürüttüm.
+\item Docker tabanlı deployment'lara ve production release döngülerine katıldım.
+\end{itemize}
+
+\section{Projeler}
+
+\entry{BidsForShips (B2B Platform — Freelance) \textnormal{---} \href{https://bidsforships.com}{bidsforships.com}}{Ekim 2025 -- Şubat 2026}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+\item RBAC tabanlı iş akışlarıyla 3.000+ şirketi destekleyen ölçeklenebilir Django REST backend geliştirdim.
+\item ~100 aktif kullanıcı için backend iş akışları tasarladım.
+\item Param ve PayTR entegrasyonları için backend ödeme altyapısını hazırladım.
+\item Elasticsearch tabanlı arama ve filtreleme altyapısını entegre ettim.
+\item Postfix + Dovecot kullanarak production seviyesinde mail sunucusu tasarladım ve işlettim.
+\item Kubernetes ve CI/CD otomasyonu ile container tabanlı production yığınını deploy ettim.
+\end{itemize}
+
+\entry{Mail Sender Smart Edition \textnormal{---} \href{https://mailsendersmartedition.com}{mailsendersmartedition.com}}{Eylül 2025 -- Devam ediyor}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+\item Şablon ve alıcı segmentasyonu mimarisine sahip ölçeklenebilir toplu e-posta yönetim platformu geliştirdim (20+ aktif kullanıcı).
+\item Gemini 2.5 Flash ile LLM tabanlı e-posta şablonu üretimini hayata geçirerek optimize edilmiş token kullanımıyla yapılandırılmış JSON tabanlı taslaklar ürettim.
+\item Zamanlama mantığına sahip, yeniden deneme tabanlı arka plan e-posta gönderim pipeline'ı tasarladım.
+\item Güvenli ve güvenilir teslimat sağlayan, kendi sunucumuzda barındırılan mail altyapısını yapılandırdım.
+\end{itemize}
+
+\entry{Entegram (Mobil Uygulama)}{Kapalı Test}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+\item Kullanıcıların günlük telefon alışkanlıklarını düzenli dil öğrenme oturumlarına dönüştürmek için tasarlanmış, kaydırma tabanlı bir İngilizce öğrenme uygulaması geliştirdim.
+\item Sezgisel bir kaydırma etkileşimiyle kısa ve sık tekrarı teşvik eden, alışkanlık odaklı öğrenme akışı tasarladım.
+\item Şu anda kapalı test sürecinde; yakın zamanda mağaza üzerinden genel kullanıma sunulması planlanıyor.
+\end{itemize}
+
+\section{Yetenekler}
+\textbf{Diller:} Python, C\#, Dart, Kotlin, Java\\
+\textbf{Backend:} Django, Django REST Framework, FastAPI, ASP.NET Core, Celery\\
+\textbf{Mobil:} Flutter, Firebase\\
+\textbf{Veritabanları:} PostgreSQL, SQLite, Elasticsearch, Redis\\
+\textbf{DevOps:} Docker, Kubernetes (kubeadm), GitHub Actions, Linux, CI/CD, Production Debugging\\
+\textbf{Kavramlar:} REST Architecture, RBAC, Veri Modelleme, Caching Stratejileri, ML Pipelines
+
+\section{Eğitim}
+\textbf{Konya Teknik Üniversitesi} \hfill Konya, Türkiye\\
+\textit{Bilgisayar Mühendisliği, Lisans} \hfill Ağustos 2022 -- Haziran 2026\\
+Not Ortalaması: 3.40 / 4.00
+
+\end{document}

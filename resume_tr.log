@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./resume.tex
-(resume.tex
+**./resume_tr.tex
+(resume_tr.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 
@@ -66,9 +66,59 @@ cfg))
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+) (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.st
+y
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
+(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count286
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2101.
+\U@D=\dimen158
+\l@unhyphenated=\language79
+
+(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.d
+ef)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count287
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/tr\
+babel-turkish.tex)
+Package babel Info: Importing font and identification data for turkish
+(babel)             from babel-tr.ini. Reported on input line 4320.
+
+(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/babel-turkish\turk
+ish.ldf
+Language: turkish 2019/07/05 v1.4 Turkish support from the babel system
+))
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.
 sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -122,21 +172,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 s.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count286
+\c@section@level=\count288
 )
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.
 sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count287
+\etb@tempcnta=\count289
 )
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\string
 enc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen158
-\Hy@linkcounter=\count288
-\Hy@pagecounter=\count289
+\@linkdim=\dimen159
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.de
 f
@@ -148,7 +198,7 @@ Now handling font encoding PD1 ...
 sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count290
+\Hy@SavedSpaceFactor=\count292
 
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -162,13 +212,13 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count291
+\c@Hy@tempcnt=\count293
  (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen159
+\XeTeXLinkMargin=\dimen160
 
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.st
 y
@@ -179,9 +229,9 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count292
-\Field@Width=\dimen160
-\Fld@charsize=\dimen161
+\Fld@menulength=\count294
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -189,17 +239,17 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.d
 ef
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
 
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rer
 unfilecheck.sty
@@ -220,22 +270,22 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen162
-\ttl@minus=\dimen163
-\ttl@toksa=\toks19
-\titlewidth=\dimen164
-\titlewidthlast=\dimen165
-\titlewidthfirst=\dimen166
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks21
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
 )
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.
 sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip54
-\enit@outerparindent=\dimen167
-\enit@toks=\toks20
+\enit@outerparindent=\dimen168
+\enit@toks=\toks22
 \enit@inbox=\box54
-\enit@count@id=\count298
-\enitdp@description=\count299
+\enit@count@id=\count300
+\enitdp@description=\count301
 )
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.
 sty
@@ -257,10 +307,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 tex
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils
 .tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
 )
-\XKV@depth=\count300
+\XKV@depth=\count302
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.
@@ -270,47 +320,53 @@ Package: fcprefix 2012/09/28
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumpars
 er.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count301
+\fc@digit@counter=\count303
 ))
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen168
+\@emptytoks=\toks25
+\ex@=\dimen169
 )
-\c@padzeroesN=\count302
-\fc@tmpcatcode=\count303
-\@DT@modctr=\count304
-\@ordinalctr=\count305
-\@orgargctr=\count306
-\@strctr=\count307
-\@tmpstrctr=\count308
-\@DT@loopN=\count309
-\@DT@X=\count310
+\c@padzeroesN=\count304
+\fc@tmpcatcode=\count305
+\@DT@modctr=\count306
+\@ordinalctr=\count307
+\@orgargctr=\count308
+\@strctr=\count309
+\@tmpstrctr=\count310
+\@DT@loopN=\count311
+\@DT@X=\count312
 )
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-
 defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count311
-\@month=\count312
-\@year=\count313
-\c@HOUR=\count314
-\c@HOURXII=\count315
-\c@MINUTE=\count316
-\c@TOHOUR=\count317
-\c@TOMINUTE=\count318
-\c@SECOND=\count319
-\currenthour=\count320
-\currentminute=\count321
-\currentsecond=\count322
+\@day=\count313
+\@month=\count314
+\@year=\count315
+\c@HOUR=\count316
+\c@HOURXII=\count317
+\c@MINUTE=\count318
+\c@TOHOUR=\count319
+\c@TOMINUTE=\count320
+\c@SECOND=\count321
+\currenthour=\count322
+\currentminute=\count323
+\currentsecond=\count324
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count323
-\dayofyear=\count324
-\dayofweek=\count325
+\@dtctr=\count325
+\dayofyear=\count326
+\dayofweek=\count327
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks24
-\dt@b=\toks25
+
+(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/datetime\dt-turkis
+h.def
+File: dt-turkish.def 2013/09/10
+LaTeX Info: Redefining \dateturkish on input line 63.
+)
+\dt@a=\toks26
+\dt@b=\toks27
 )
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.
 sty
@@ -333,10 +389,10 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 x.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen169
-\Gin@req@width=\dimen170
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 27
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 29
 .
 
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
@@ -345,28 +401,31 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count326
-) (resume.aux)
-\openout1 = `resume.aux'.
+\l__color_backend_stack_int=\count328
+) (resume_tr.aux
+Package babel Info: 'turkish' activates 'turkish' shorthands.
+(babel)             Reported on input line 7.
+)
+\openout1 = `resume_tr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -402,30 +461,26 @@ LaTeX Font Info:    ... okay on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 27.
-(resume.out) (resume.out)
+Package hyperref Info: Link coloring OFF on input line 29.
+(resume_tr.out) (resume_tr.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `resume_tr.out'.
 
 
-(C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-englis
-h.def
-File: fc-english.def 2016/01/12
-)
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
 df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
-\scratchdimen=\dimen171
+\scratchcounter=\count329
+\scratchdimen=\dimen172
 \scratchbox=\box55
-\nofMPsegments=\count328
-\nofMParguments=\count329
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count330
-\MPscratchDim=\dimen172
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
-\everyMPtoPDFconversion=\toks27
+\nofMPsegments=\count330
+\nofMParguments=\count331
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen173
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
+\everyMPtoPDFconversion=\toks29
 )
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty
@@ -438,19 +493,19 @@ sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-3.
+5.
 
 (C:\Users\Developeng\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 39.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 39.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 63.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 73.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 75.
 
 [1
 
@@ -460,29 +515,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \end{document}
-                     [2] (resume.aux)
+l.132 \end{document}
+                     [2] (resume_tr.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 13A574F0B81A63128901F0FBD0DEEBE4;541.
+
+
+Package rerunfilecheck Warning: File `resume_tr.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume_tr.out':
+(rerunfilecheck)             Before: 4B2268D36B3AF18CEBDE29DC2F1599EC;555
+(rerunfilecheck)             After:  68D930FBF496A56CBAD13385DA116E23;495.
  ) 
 Here is how much of TeX's memory you used:
- 10885 strings out of 467871
- 172415 string characters out of 5415956
- 619479 words of memory out of 5000000
- 39619 multiletter control sequences out of 15000+600000
+ 11992 strings out of 467871
+ 193595 string characters out of 5415956
+ 647859 words of memory out of 5000000
+ 40703 multiletter control sequences out of 15000+600000
  655676 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1011b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,1044b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Developeng/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/u
 hvb8a.pfb><C:/Users/Developeng/AppData/Local/Programs/MiKTeX/fonts/type1/urw/he
 lvetic/uhvbo8a.pfb><C:/Users/Developeng/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb><C:/Users/Developeng/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on resume.pdf (2 pages, 54819 bytes).
+Output written on resume_tr.pdf (2 pages, 58366 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
