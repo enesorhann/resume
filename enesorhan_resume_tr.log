@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.25)  18 AUG 2026 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.25)  18 AUG 2026 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -473,10 +473,10 @@ Package rerunfilecheck Info: File `enesorhan_resume_tr.out' has not changed.
 (rerunfilecheck)             Checksum: 510B42C2A893ABBDB0B1B6AD2D1344BB;518.
  ) 
 Here is how much of TeX's memory you used:
- 11579 strings out of 467871
- 185408 string characters out of 5415956
+ 11578 strings out of 467871
+ 185398 string characters out of 5415956
  640434 words of memory out of 5000000
- 40312 multiletter control sequences out of 15000+600000
+ 40311 multiletter control sequences out of 15000+600000
  662394 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,299b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -485,7 +485,7 @@ hvb8a.pfb><C:/Users/Developeng/AppData/Local/Programs/MiKTeX/fonts/type1/urw/he
 lvetic/uhvbo8a.pfb><C:/Users/Developeng/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb><C:/Users/Developeng/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on enesorhan_resume_tr.pdf (1 page, 56845 bytes).
+Output written on enesorhan_resume_tr.pdf (1 page, 56852 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

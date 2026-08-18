@@ -2,73 +2,57 @@ Enes Orhan
 Mobile & Backend Engineer
 +90 507 756 14 88 · enesorhann404@gmail.com · linkedin.com/in/enesorhann · github.com/enesorhann · enesorhan.com
 
-ÖZET
-Kullanıcı odaklı mobil uygulamalar ve ölçeklenebilir backend sistemleri gelis¸tiriyorum. Mobil ürün gelis¸tirmeden backend servisleri ve altyapı yönetimine kadar uçtan uca gelis¸tirme deneyimine sahibim.
+Özet
+Kullanıcı odaklı mobil uygulamalar ve ölçeklenebilir backend sistemleri geliştiriyorum. Mobil ürün geliştirmeden backend servisleri ve altyapı yönetimine kadar uçtan uca geliştirme deneyimine sahibim.
 
-DENEYIM
+Deneyim
 
 Freelance Software Engineer Software Engineer
 
-Uzaktan Ekim 2025 – S¸ ubat 2026
+Uzaktan Ekim 2025 – Şubat 2026
 
-• 3.000+ s¸irket ve ~100 aktif kullanıcı için RBAC tabanlı çok kiracılı Django REST backend kurdum.
+• 3.000+ şirket ve ~100 aktif kullanıcı için RBAC tabanlı çok kiracılı Django REST backend kurdum. • Param ve PayTR için işlem doğrulama ve callback yönetimi içeren ödeme altyapısı geliştirdim. • Postfix + Dovecot ile SPF, DKIM ve DMARC destekli production mail sunucusu yapılandırıp işlettim. • kubeadm ile Kubernetes cluster kurdum; dağıtım ve hata ayıklamayı kubectl ile yönettim.
 
-• Param ve PayTR için is¸lem dog˘ rulama ve callback yönetimi içeren ödeme altyapısı gelis¸tirdim.
-
-• Postfix + Dovecot ile SPF, DKIM ve DMARC destekli production mail sunucusu yapılandırıp is¸lettim.
-
-• kubeadm ile Kubernetes cluster kurdum; dag˘ ıtım ve hata ayıklamayı kubectl ile yönettim.
-
-Fiyator A.S¸ . (Ankara, Türkiye) · fiyator.com Software Engineer Intern
+Fiyator A.Ş. (Ankara, Türkiye) · fiyator.com Software Engineer Intern
 
 Uzaktan Haziran 2025 – Ekim 2025
 
-• 14M+ ürün kaydı, 12M+ görsel ve 529K+ kategori içeren backend sistemlerinde çalıs¸tım.
+• 14M+ ürün kaydı, 12M+ görsel ve 529K+ kategori içeren backend sistemlerinde çalıştım. • PostgreSQL indeksleme, Redis ve Elasticsearch ile API süresini ~450ms’den ~200ms’e düşürdüm. • Semantic Transformers ile %95 doğrulukta Django + FastAPI kategori eşleştirme servisi geliştirdim. • Redis önbellekli FAISS vektör arama ve Ollama (gemma3n:e2b) çalıştıran FastAPI servisi tasarladım. • Flutter mobil yeniden tasarımını yürüttüm ve 45+ fonksiyonel/UI sorununu dokümante ettim. • Süresi dolmuş premium kullanıcıların erişimini koruyan abonelik doğrulama hatasını bulup çözdüm.
 
-• PostgreSQL indeksleme, Redis ve Elasticsearch ile API süresini ~450ms’den ~200ms’e düs¸ürdüm.
-
-• Semantic Transformers ile %95 dog˘ rulukta Django + FastAPI kategori es¸les¸tirme servisi gelis¸tirdim.
-
-• Redis önbellekli FAISS vektör arama ve Ollama (gemma3n:e2b) çalıs¸tıran FastAPI servisi tasarladım.
-
-• Flutter mobil yeniden tasarımını yürüttüm ve 45+ fonksiyonel/UI sorununu dokümante ettim.
-
-• Süresi dolmus¸ premium kullanıcıların eris¸imini koruyan abonelik dog˘ rulama hatasını bulup çözdüm.
-
-PROJELER
-• BidsForShips · bidsforships.com Denizcilik sektörü için gelis¸tirilmis¸ çok kiracılı B2B ihale ve teklif platformu.
+Projeler
+• BidsForShips · bidsforships.com Denizcilik sektörü için geliştirilmiş çok kiracılı B2B ihale ve teklif platformu.
 Django · PostgreSQL · Redis · Celery · Elasticsearch · Docker · Kubernetes · Hetzner
 
 • Zerbook
 
 Devam ediyor
 
-Flutter ile gelis¸tirdig˘ im altın portföy takip uygulaması. Backend ve mag˘ aza sürecini de yönetiyorum.
+Flutter ile geliştirdiğim altın portföy takip uygulaması. .NET backend ve mağaza süreçlerini de yönetiyorum.
 
-Flutter · Dart · Python · PostgreSQL · Firebase · App Store · Google Play
+Flutter · Dart · .NET · PostgreSQL · Firebase · Docker · Kubernetes · App Store · Google Play
 
-• Entegram · App Store / Play Store Kısa ve kaydırmalı derslerden olus¸an ˙Ingilizce ög˘ renme uygulaması; Flutter ve ASP.NET Core.
-Flutter · ASP.NET Core · PostgreSQL · Firebase · Docker
+• Entegram · App Store / Play Store Kısa ve kaydırmalı derslerden oluşan İngilizce öğrenme uygulaması; Flutter ve ASP.NET Core.
+Flutter · ASP.NET Core · PostgreSQL · Firebase · Docker · Kubernetes
 
 • Mail Sender Smart Edition · mailsendersmartedition.com Yapay zekâ destekli toplu e-posta yönetim platformu.
-Flutter · Django · PostgreSQL · Gemini 2.5 Flash · Postfix + Dovecot
+Flutter · Django · PostgreSQL · Gemini 2.5 Flash · Postfix + Dovecot · Docker · Kubernetes
 
-• CompAtlas · compatlas.com.tr Türkiye’nin 81 ilindeki 17K+ teknoloji firmasını kapsayan, tek bas¸ıma gelis¸tirdig˘ im veri platformu.
+• CompAtlas · compatlas.com.tr Türkiye’nin 81 ilindeki 17K+ teknoloji firmasını kapsayan, tek başıma geliştirdiğim veri platformu.
 Next.js · Supabase · SEO/GEO · OSM · Google Places · Overture Maps
 
 Devam ediyor
 
-• Özyalçınlar Kereste · React ile gelis¸tirdig˘ im kurumsal kereste firması web sitesi (yapım as¸amasında).
+• Özyalçınlar Kereste · React ile geliştirdiğim kurumsal kereste firması web sitesi (yapım aşamasında).
 
-TEKNIK YETENEKLER
+Teknik Yetenekler
 
 Diller Mobil & Web Backend Veritabanları DevOps AI/ML
 
 Python, Dart, C#, Kotlin, Java Flutter, Firebase, Next.js, React, Supabase, App Store & Google Play yayını Django, DRF, FastAPI, ASP.NET Core, Celery, REST API, RBAC, JWT PostgreSQL, Redis, Elasticsearch, SQLite Docker, Kubernetes (kubeadm), GitHub Actions, Linux, CI/CD, Hetzner LLM entegrasyonu (Ollama, Gemini), FAISS vektör arama, Semantic Transformers
 
-EG˘ ITIM & SERTIFIKALAR
-Konya Teknik Üniversitesi · Bilgisayar Mühendislig˘ i (Lisans) · Not Ort. 3.40 / 4.00 Sertifikalar Sertifika portföyü · Teknofest Katılım Belgesi
+Eğitim & Sertifikalar
+Konya Teknik Üniversitesi · Bilgisayar Mühendisliği (Lisans) · Not Ort. 3.40 / 4.00 Sertifikalar Sertifika portföyü · Teknofest Katılım Belgesi
 
-Ag˘ u 2022 – Haz 2026
+Ağu 2022 – Haz 2026
 
 
