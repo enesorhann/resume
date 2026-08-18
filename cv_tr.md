@@ -23,8 +23,8 @@
 
 ## Deneyim
 
-**Freelance Software Developer** — Remote
-*Backend Engineer* — Ekim 2025 - Devam ediyor
+**Freelance Software Developer**  Remote
+*Backend Engineer*  Ekim 2025 - Devam ediyor
 
 - RBAC tabanlı iş akışlarıyla 3.000+ şirketi destekleyen çok kiracılı (multi-tenant) Django REST backend mimarisi kurdum.
 - Kurum bazlı finansal operasyonları yöneten ~100 aktif kullanıcı için backend iş akışları tasarladım.
@@ -35,8 +35,8 @@
 - kubeadm ile Kubernetes cluster'ları kurup yapılandırdım; deployment'ları ve production hata ayıklamayı kubectl üzerinden yönettim.
 - Mimari tasarımdan production release ve izlemeye kadar uçtan uca ticari backend sistemleri teslim ettim.
 
-**Fiyator A.Ş.** *(Ankara, Türkiye)* — [fiyator.com](https://fiyator.com) — Remote
-*Full-Stack Mobile Developer Intern* — Haziran 2025 - Ekim 2025
+**Fiyator A.Ş.** *(Ankara, Türkiye)*  [fiyator.com](https://fiyator.com)  Remote
+*Full-Stack Mobile Developer Intern*  Haziran 2025 - Ekim 2025
 
 - 14M+ ürün kaydı, 12M+ görsel, 529K+ kategori ve 182K+ marka üzerinde çalışan backend sistemlerine katkı sağladım.
 - Çoğunluğu şirket hesaplarından oluşan 456 aktif kullanıcıya hizmet veren production ortamını destekledim.
@@ -53,7 +53,7 @@
 
 ## Projeler
 
-**BidsForShips (B2B Platform — Freelance)** — [bidsforships.com](https://bidsforships.com) — Ekim 2025 - Şubat 2026
+**BidsForShips (B2B Platform  Freelance)**  [bidsforships.com](https://bidsforships.com)  Ekim 2025 - Şubat 2026
 
 - RBAC tabanlı iş akışlarıyla 3.000+ şirketi destekleyen ölçeklenebilir Django REST backend geliştirdim.
 - ~100 aktif kullanıcı için backend iş akışları tasarladım.
@@ -62,14 +62,14 @@
 - Postfix + Dovecot kullanarak production seviyesinde mail sunucusu tasarladım ve işlettim.
 - Kubernetes ve CI/CD otomasyonu ile container tabanlı production yığınını deploy ettim.
 
-**Mail Sender Smart Edition** — [mailsendersmartedition.com](https://mailsendersmartedition.com) — Eylül 2025 - Devam ediyor
+**Mail Sender Smart Edition**  [mailsendersmartedition.com](https://mailsendersmartedition.com)  Eylül 2025 - Devam ediyor
 
 - Şablon ve alıcı segmentasyonu mimarisine sahip ölçeklenebilir toplu e-posta yönetim platformu geliştirdim (20+ aktif kullanıcı).
 - Gemini 2.5 Flash ile LLM tabanlı e-posta şablonu üretimini hayata geçirerek optimize edilmiş token kullanımıyla yapılandırılmış JSON tabanlı taslaklar ürettim.
 - Zamanlama mantığına sahip, yeniden deneme tabanlı arka plan e-posta gönderim pipeline'ı tasarladım.
 - Güvenli ve güvenilir teslimat sağlayan, kendi sunucumuzda barındırılan mail altyapısını yapılandırdım.
 
-**Entegram (Mobil Uygulama)** — Kapalı Test
+**Entegram (Mobil Uygulama)**  Kapalı Test
 
 - Kullanıcıların günlük telefon alışkanlıklarını düzenli dil öğrenme oturumlarına dönüştürmek için tasarlanmış, kaydırma tabanlı bir İngilizce öğrenme uygulaması geliştirdim.
 - Sezgisel bir kaydırma etkileşimiyle kısa ve sık tekrarı teşvik eden, alışkanlık odaklı öğrenme akışı tasarladım.
@@ -86,6 +86,6 @@
 
 ## Eğitim
 
-**Konya Teknik Üniversitesi** — Konya, Türkiye
-*Bilgisayar Mühendisliği, Lisans* — Ağustos 2022 - Haziran 2026
+**Konya Teknik Üniversitesi**  Konya, Türkiye
+*Bilgisayar Mühendisliği, Lisans*  Ağustos 2022 - Haziran 2026
 Not Ortalaması: 3.40 / 4.00

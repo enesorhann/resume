@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "PowerShell(pdflatex -interaction=nonstopmode -halt-on-error resume_tr.tex)",
-      "PowerShell(pdflatex -interaction=nonstopmode -halt-on-error resume.tex)"
+      "PowerShell(pdflatex -interaction=nonstopmode -halt-on-error resume.tex)",
+      "Bash(unzip -p Diyanet_Resmi_CV.docx word/document.xml)",
+      "Read(//tmp/**)",
+      "Read(//c/tmp/**)",
+      "Bash(sed -e 's|</w:p>|\\\\n|g' -e 's|<[^>]*>||g' doc.xml)",
+      "Bash(pdflatex -interaction=nonstopmode enesorhan_resume.tex)",
+      "Bash(pdflatex -interaction=nonstopmode enesorhan_resume_tr.tex)"
     ]
   }
 }

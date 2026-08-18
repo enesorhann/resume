@@ -1,0 +1,64 @@
+Enes Orhan
+Mobile & Backend Engineer
++90 507 756 14 88 · enesorhann404@gmail.com · linkedin.com/in/enesorhann · github.com/enesorhann · enesorhan.com
+
+SUMMARY
+I build user-focused mobile applications and scalable backend systems. I have end-to-end development experience, from mobile product development to backend services and infrastructure.
+
+EXPERIENCE
+
+Freelance Software Engineer Software Engineer
+
+Remote Oct 2025 – Feb 2026
+
+• Built a multi-tenant Django REST backend with RBAC for 3,000+ companies and ~100 active users.
+
+• Implemented payment integration for Param and PayTR with transaction validation and callbacks.
+
+• Configured and ran a production mail server (Postfix + Dovecot) with SPF, DKIM and DMARC.
+
+• Set up Kubernetes clusters with kubeadm and handled deployments and debugging with kubectl.
+
+Fiyator A.S¸ . (Ankara, Türkiye) · fiyator.com Software Engineer Intern
+
+Remote Jun 2025 – Oct 2025
+
+• Worked on backend systems with 14M+ product records, 12M+ images and 529K+ categories.
+
+• Reduced average API response from ~450ms to ~200ms with PostgreSQL indexing, Redis and Elasticsearch.
+
+• Built a Django + FastAPI category matching service with 95% accuracy using Semantic Transformers.
+
+• Designed FAISS vector search with Redis caching and a FastAPI service running Ollama (gemma3n:e2b).
+
+• Led the Flutter mobile redesign and documented 45+ functional and UI issues in the app.
+
+• Found and fixed a subscription validation bug that let expired premium users keep access.
+
+PROJECTS
+• BidsForShips · bidsforships.com B2B tender and bidding platform for the maritime industry, with a multi-tenant backend.
+Django · PostgreSQL · Redis · Celery · Elasticsearch · Docker · Kubernetes · Hetzner
+• Zerbook Gold portfolio tracking app built with Flutter. I develop the backend and manage store releases.
+Flutter · Dart · Python · PostgreSQL · Firebase · App Store · Google Play
+• Entegram · App Store / Play Store English learning app built around short, swipe-based lessons using Flutter and ASP.NET Core.
+Flutter · ASP.NET Core · PostgreSQL · Firebase · Docker
+• Mail Sender Smart Edition · mailsendersmartedition.com AI-powered bulk email management platform.
+Flutter · Django · PostgreSQL · Gemini 2.5 Flash · Postfix + Dovecot
+• CompAtlas · compatlas.com.tr Data platform I build on my own, covering 17K+ tech companies across Türkiye’s 81 provinces.
+Next.js · Supabase · SEO/GEO · OSM · Google Places · Overture Maps
+• Özyalçınlar Kereste · Corporate website for a timber company, developed with React (in progress).
+
+Present Present
+
+TECHNICAL SKILLS
+
+Languages Mobile & Web Backend Databases DevOps AI/ML
+
+Python, Dart, C#, Kotlin, Java Flutter, Firebase, Next.js, React, Supabase, App Store & Google Play releases Django, DRF, FastAPI, ASP.NET Core, Celery, REST APIs, RBAC, JWT PostgreSQL, Redis, Elasticsearch, SQLite Docker, Kubernetes (kubeadm), GitHub Actions, Linux, CI/CD, Hetzner LLM integration (Ollama, Gemini), FAISS vector search, Semantic Transformers
+
+EDUCATION & CERTIFICATIONS
+Konya Technical University · B.Sc. Computer Engineering · GPA 3.40 / 4.00 Certifications Certificate portfolio · Teknofest Participation Certificate
+
+Aug 2022 – Jun 2026
+
+

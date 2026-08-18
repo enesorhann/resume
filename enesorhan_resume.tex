@@ -1,0 +1,141 @@
+\documentclass[10pt,a4paper]{extarticle}
+\pagenumbering{gobble}
+\usepackage[left=0.62in,top=0.45in,right=0.62in,bottom=0.45in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\definecolor{accent}{HTML}{1A365D}
+\definecolor{muted}{HTML}{4A5568}
+\definecolor{rulecol}{HTML}{B8C4D4}
+
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,
+            pdftitle={Enes Orhan - Mobile and Backend Engineer},pdfauthor={Enes Orhan}}
+
+%% ---- Section hierarchy -------------------------------------------------
+\titleformat{\section}
+  {\large\bfseries\scshape\color{accent}\raggedright}{}{0em}{}
+  [\vspace{-1pt}{\color{rulecol}\titlerule[0.9pt]}]
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+
+%% ---- Building blocks ---------------------------------------------------
+\newcommand{\sep}{\;\textperiodcentered\;}
+\newcommand{\ca}{\textasciitilde}
+
+% Company header line with right-aligned location
+\newcommand{\entry}[2]{%
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textbf{#1} & #2\\
+\end{tabular*}\vspace{1pt}
+}
+% Job title with right-aligned dates
+\newcommand{\subentry}[2]{%
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textit{\color{muted}#1} & \textit{\color{muted}#2}\\
+\end{tabular*}\vspace{2pt}
+}
+% Tech stack strip under a project
+\newcommand{\tech}[1]{{\footnotesize\color{muted}#1}}
+
+\newlist{bullets}{itemize}{1}
+\setlist[bullets]{leftmargin=1.1em,label=\textbullet,itemsep=2.5pt,topsep=2pt,parsep=0pt}
+
+\begin{document}
+
+%% ======================= HEADER =======================
+\begin{center}
+{\fontsize{23}{27}\selectfont\bfseries\color{accent}Enes Orhan}\\[4pt]
+{\large\color{muted}Mobile \& Backend Engineer}\\[8pt]
+{\small
+\href{tel:+905077561488}{+90 507 756 14 88}\sep
+\href{mailto:enesorhann404@gmail.com}{enesorhann404@gmail.com}\sep
+\href{https://linkedin.com/in/enesorhann}{linkedin.com/in/enesorhann}\sep
+\href{https://github.com/enesorhann}{github.com/enesorhann}\sep
+\href{https://enesorhan.com}{enesorhan.com}}
+\end{center}
+
+%% ======================= SUMMARY =======================
+\section{Summary}
+I build user-focused mobile applications and scalable backend systems. I have end-to-end development
+experience, from mobile product development to backend services and infrastructure.
+
+%% ======================= EXPERIENCE =======================
+\section{Experience}
+
+\entry{Freelance Software Engineer}{Remote}
+\subentry{Software Engineer}{Oct 2025 -- Feb 2026}
+\begin{bullets}
+\item Built a multi-tenant Django REST backend with RBAC for 3,000+ companies and \ca{}100 active users.
+\item Implemented payment integration for Param and PayTR with transaction validation and callbacks.
+\item Configured and ran a production mail server (Postfix + Dovecot) with SPF, DKIM and DMARC.
+\item Set up Kubernetes clusters with kubeadm and handled deployments and debugging with kubectl.
+\end{bullets}
+
+\vspace{6pt}
+\entry{Fiyator A.Ş. \textit{(Ankara, Türkiye)}\sep\href{https://fiyator.com}{fiyator.com}}{Remote}
+\subentry{Software Engineer Intern}{Jun 2025 -- Oct 2025}
+\begin{bullets}
+\item Worked on backend systems with 14M+ product records, 12M+ images and 529K+ categories.
+\item Reduced average API response from \ca{}450ms to \ca{}200ms with PostgreSQL indexing, Redis and Elasticsearch.
+\item Built a Django + FastAPI category matching service with 95\% accuracy using Semantic Transformers.
+\item Designed FAISS vector search with Redis caching and a FastAPI service running Ollama (gemma3n:e2b).
+\item Led the Flutter mobile redesign and documented 45+ functional and UI issues in the app.
+\item Found and fixed a subscription validation bug that let expired premium users keep access.
+\end{bullets}
+
+%% ======================= PROJECTS =======================
+\section{Projects}
+\begin{bullets}[itemsep=5pt]
+
+\item \textbf{BidsForShips}\sep\href{https://bidsforships.com}{bidsforships.com}\\
+B2B tender and bidding platform for the maritime industry, with a multi-tenant backend.\\[2pt]
+\tech{Django\sep PostgreSQL\sep Redis\sep Celery\sep Elasticsearch\sep Docker\sep Kubernetes\sep Hetzner}
+
+\item \textbf{Zerbook}\hfill{\color{muted}Present}\\
+Gold portfolio tracking app built with Flutter. I develop the backend and manage store releases.\\[2pt]
+\tech{Flutter\sep Dart\sep Python\sep PostgreSQL\sep Firebase\sep App Store\sep Google Play}
+
+\item \textbf{Entegram}\sep\href{https://apps.apple.com/tr/app/entegram-kayd\%C4\%B1r-\%C3\%B6\%C4\%9Fren/id6766254758?l=tr}{App Store} / \href{https://play.google.com/store/apps/details?id=com.enesorhan.gibigram.gibigram_mobile}{Play Store}\\
+English learning app built around short, swipe-based lessons using Flutter and ASP.NET Core.\\[2pt]
+\tech{Flutter\sep ASP.NET Core\sep PostgreSQL\sep Firebase\sep Docker}
+
+\item \textbf{Mail Sender Smart Edition}\sep\href{https://mailsendersmartedition.com}{mailsendersmartedition.com}\\
+AI-powered bulk email management platform.\\[2pt]
+\tech{Flutter\sep Django\sep PostgreSQL\sep Gemini 2.5 Flash\sep Postfix + Dovecot}
+
+\item \textbf{CompAtlas}\sep\href{https://compatlas.com.tr/}{compatlas.com.tr}\hfill{\color{muted}Present}\\
+Data platform I build on my own, covering 17K+ tech companies across Türkiye's 81 provinces.\\[2pt]
+\tech{Next.js\sep Supabase\sep SEO/GEO\sep OSM\sep Google Places\sep Overture Maps}
+
+\item \textbf{Özyalçınlar Kereste}\sep Corporate website for a timber company, developed with React {\color{muted}(in progress)}.
+
+\end{bullets}
+
+%% ======================= SKILLS =======================
+\section{Technical Skills}
+\renewcommand{\arraystretch}{1.2}
+\noindent\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.15\textwidth}@{}>{\raggedright\arraybackslash}p{0.85\textwidth}@{}}
+\textbf{Languages} & Python, Dart, C\#, Kotlin, Java\\
+\textbf{Mobile \& Web} & Flutter, Firebase, Next.js, React, Supabase, App Store \& Google Play releases\\
+\textbf{Backend} & Django, DRF, FastAPI, ASP.NET Core, Celery, REST APIs, RBAC, JWT\\
+\textbf{Databases} & PostgreSQL, Redis, Elasticsearch, SQLite\\
+\textbf{DevOps} & Docker, Kubernetes (kubeadm), GitHub Actions, Linux, CI/CD, Hetzner\\
+\textbf{AI/ML} & LLM integration (Ollama, Gemini), FAISS vector search, Semantic Transformers\\
+\end{tabular}
+
+%% ======================= EDUCATION =======================
+\section{Education \& Certifications}
+\noindent\textbf{Konya Technical University}\sep B.Sc. Computer Engineering {\color{muted}\sep GPA 3.40 / 4.00}
+\hfill {\color{muted}Aug 2022 -- Jun 2026}\\[4pt]
+\noindent\textbf{Certifications}\quad
+\href{https://drive.google.com/file/d/1btYql9fKCvBwqHeh06F_NE257FhceNCB/view}{Certificate portfolio}\sep
+\href{https://drive.google.com/file/d/12AcWLnSGEfcZUWUb945n6nD-iPB7aIA9/view?usp=sharing}{Teknofest Participation Certificate}
+
+\end{document}

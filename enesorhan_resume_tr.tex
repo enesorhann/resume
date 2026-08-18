@@ -1,0 +1,142 @@
+\documentclass[10pt,a4paper]{extarticle}
+\pagenumbering{gobble}
+\usepackage[left=0.62in,top=0.45in,right=0.62in,bottom=0.45in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[turkish,shorthands=off]{babel}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage[unicode]{hyperref}
+
+\definecolor{accent}{HTML}{1A365D}
+\definecolor{muted}{HTML}{4A5568}
+\definecolor{rulecol}{HTML}{B8C4D4}
+
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,
+            pdftitle={Enes Orhan - Mobile and Backend Engineer},pdfauthor={Enes Orhan}}
+
+%% ---- Bölüm hiyerarşisi -------------------------------------------------
+\titleformat{\section}
+  {\large\bfseries\scshape\color{accent}\raggedright}{}{0em}{}
+  [\vspace{-1pt}{\color{rulecol}\titlerule[0.9pt]}]
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+
+%% ---- Yapı taşları ------------------------------------------------------
+\newcommand{\sep}{\;\textperiodcentered\;}
+\newcommand{\ca}{\textasciitilde}
+
+% Şirket satırı, konum sağa yaslı
+\newcommand{\entry}[2]{%
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textbf{#1} & #2\\
+\end{tabular*}\vspace{1pt}
+}
+% Unvan satırı, tarihler sağa yaslı
+\newcommand{\subentry}[2]{%
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textit{\color{muted}#1} & \textit{\color{muted}#2}\\
+\end{tabular*}\vspace{2pt}
+}
+% Proje altındaki teknoloji şeridi
+\newcommand{\tech}[1]{{\footnotesize\color{muted}#1}}
+
+\newlist{bullets}{itemize}{1}
+\setlist[bullets]{leftmargin=1.1em,label=\textbullet,itemsep=2.5pt,topsep=2pt,parsep=0pt}
+
+\begin{document}
+
+%% ======================= BAŞLIK =======================
+\begin{center}
+{\fontsize{23}{27}\selectfont\bfseries\color{accent}Enes Orhan}\\[4pt]
+{\large\color{muted}Mobile \& Backend Engineer}\\[8pt]
+{\small
+\href{tel:+905077561488}{+90 507 756 14 88}\sep
+\href{mailto:enesorhann404@gmail.com}{enesorhann404@gmail.com}\sep
+\href{https://linkedin.com/in/enesorhann}{linkedin.com/in/enesorhann}\sep
+\href{https://github.com/enesorhann}{github.com/enesorhann}\sep
+\href{https://enesorhan.com}{enesorhan.com}}
+\end{center}
+
+%% ======================= ÖZET =======================
+\section{Özet}
+Kullanıcı odaklı mobil uygulamalar ve ölçeklenebilir backend sistemleri geliştiriyorum. Mobil ürün
+geliştirmeden backend servisleri ve altyapı yönetimine kadar uçtan uca geliştirme deneyimine sahibim.
+
+%% ======================= DENEYİM =======================
+\section{Deneyim}
+
+\entry{Freelance Software Engineer}{Uzaktan}
+\subentry{Software Engineer}{Ekim 2025 -- Şubat 2026}
+\begin{bullets}
+\item 3.000+ şirket ve \ca{}100 aktif kullanıcı için RBAC tabanlı çok kiracılı Django REST backend kurdum.
+\item Param ve PayTR için işlem doğrulama ve callback yönetimi içeren ödeme altyapısı geliştirdim.
+\item Postfix + Dovecot ile SPF, DKIM ve DMARC destekli production mail sunucusu yapılandırıp işlettim.
+\item kubeadm ile Kubernetes cluster kurdum; dağıtım ve hata ayıklamayı kubectl ile yönettim.
+\end{bullets}
+
+\vspace{6pt}
+\entry{Fiyator A.Ş. \textit{(Ankara, Türkiye)}\sep\href{https://fiyator.com}{fiyator.com}}{Uzaktan}
+\subentry{Software Engineer Intern}{Haziran 2025 -- Ekim 2025}
+\begin{bullets}
+\item 14M+ ürün kaydı, 12M+ görsel ve 529K+ kategori içeren backend sistemlerinde çalıştım.
+\item PostgreSQL indeksleme, Redis ve Elasticsearch ile API süresini \ca{}450ms'den \ca{}200ms'e düşürdüm.
+\item Semantic Transformers ile \%95 doğrulukta Django + FastAPI kategori eşleştirme servisi geliştirdim.
+\item Redis önbellekli FAISS vektör arama ve Ollama (gemma3n:e2b) çalıştıran FastAPI servisi tasarladım.
+\item Flutter mobil yeniden tasarımını yürüttüm ve 45+ fonksiyonel/UI sorununu dokümante ettim.
+\item Süresi dolmuş premium kullanıcıların erişimini koruyan abonelik doğrulama hatasını bulup çözdüm.
+\end{bullets}
+
+%% ======================= PROJELER =======================
+\section{Projeler}
+\begin{bullets}[itemsep=5pt]
+
+\item \textbf{BidsForShips}\sep\href{https://bidsforships.com}{bidsforships.com}\\
+Denizcilik sektörü için geliştirilmiş çok kiracılı B2B ihale ve teklif platformu.\\[2pt]
+\tech{Django\sep PostgreSQL\sep Redis\sep Celery\sep Elasticsearch\sep Docker\sep Kubernetes\sep Hetzner}
+
+\item \textbf{Zerbook}\hfill{\color{muted}Devam ediyor}\\
+Flutter ile geliştirdiğim altın portföy takip uygulaması. Backend ve mağaza sürecini de yönetiyorum.\\[2pt]
+\tech{Flutter\sep Dart\sep Python\sep PostgreSQL\sep Firebase\sep App Store\sep Google Play}
+
+\item \textbf{Entegram}\sep\href{https://apps.apple.com/tr/app/entegram-kayd\%C4\%B1r-\%C3\%B6\%C4\%9Fren/id6766254758?l=tr}{App Store} / \href{https://play.google.com/store/apps/details?id=com.enesorhan.gibigram.gibigram_mobile}{Play Store}\\
+Kısa ve kaydırmalı derslerden oluşan İngilizce öğrenme uygulaması; Flutter ve ASP.NET Core.\\[2pt]
+\tech{Flutter\sep ASP.NET Core\sep PostgreSQL\sep Firebase\sep Docker}
+
+\item \textbf{Mail Sender Smart Edition}\sep\href{https://mailsendersmartedition.com}{mailsendersmartedition.com}\\
+Yapay zekâ destekli toplu e-posta yönetim platformu.\\[2pt]
+\tech{Flutter\sep Django\sep PostgreSQL\sep Gemini 2.5 Flash\sep Postfix + Dovecot}
+
+\item \textbf{CompAtlas}\sep\href{https://compatlas.com.tr/}{compatlas.com.tr}\hfill{\color{muted}Devam ediyor}\\
+Türkiye'nin 81 ilindeki 17K+ teknoloji firmasını kapsayan, tek başıma geliştirdiğim veri platformu.\\[2pt]
+\tech{Next.js\sep Supabase\sep SEO/GEO\sep OSM\sep Google Places\sep Overture Maps}
+
+\item \textbf{Özyalçınlar Kereste}\sep React ile geliştirdiğim kurumsal kereste firması web sitesi {\color{muted}(yapım aşamasında)}.
+
+\end{bullets}
+
+%% ======================= YETENEKLER =======================
+\section{Teknik Yetenekler}
+\renewcommand{\arraystretch}{1.2}
+\noindent\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.16\textwidth}@{}>{\raggedright\arraybackslash}p{0.84\textwidth}@{}}
+\textbf{Diller} & Python, Dart, C\#, Kotlin, Java\\
+\textbf{Mobil \& Web} & Flutter, Firebase, Next.js, React, Supabase, App Store \& Google Play yayını\\
+\textbf{Backend} & Django, DRF, FastAPI, ASP.NET Core, Celery, REST API, RBAC, JWT\\
+\textbf{Veritabanları} & PostgreSQL, Redis, Elasticsearch, SQLite\\
+\textbf{DevOps} & Docker, Kubernetes (kubeadm), GitHub Actions, Linux, CI/CD, Hetzner\\
+\textbf{AI/ML} & LLM entegrasyonu (Ollama, Gemini), FAISS vektör arama, Semantic Transformers\\
+\end{tabular}
+
+%% ======================= EĞİTİM =======================
+\section{Eğitim \& Sertifikalar}
+\noindent\textbf{Konya Teknik Üniversitesi}\sep Bilgisayar Mühendisliği (Lisans) {\color{muted}\sep Not Ort. 3.40 / 4.00}
+\hfill {\color{muted}Ağu 2022 -- Haz 2026}\\[4pt]
+\noindent\textbf{Sertifikalar}\quad
+\href{https://drive.google.com/file/d/1btYql9fKCvBwqHeh06F_NE257FhceNCB/view}{Sertifika portföyü}\sep
+\href{https://drive.google.com/file/d/12AcWLnSGEfcZUWUb945n6nD-iPB7aIA9/view?usp=sharing}{Teknofest Katılım Belgesi}
+
+\end{document}
