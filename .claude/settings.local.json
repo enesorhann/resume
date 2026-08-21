@@ -8,7 +8,17 @@
       "Read(//c/tmp/**)",
       "Bash(sed -e 's|</w:p>|\\\\n|g' -e 's|<[^>]*>||g' doc.xml)",
       "Bash(pdflatex -interaction=nonstopmode enesorhan_resume.tex)",
-      "Bash(pdflatex -interaction=nonstopmode enesorhan_resume_tr.tex)"
+      "Bash(pdflatex -interaction=nonstopmode enesorhan_resume_tr.tex)",
+      "Bash(pdfinfo enesorhan_resume_tr.pdf)",
+      "Read(//Library/TeX/**)",
+      "Read(//usr/local/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(python3 -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Read(//private/tmp/**)",
+      "Bash(curl -sL \"https://yihui.org/tinytex/install-bin-unix.sh\")",
+      "Bash(sh)",
+      "Bash(python3 -m venv /private/tmp/claude-501/-Users-Developeng-development-resume/c2742de5-ad43-4f0d-b57e-a1b82a1655ea/scratchpad/venv)",
+      "Bash(/private/tmp/claude-501/-Users-Developeng-development-resume/c2742de5-ad43-4f0d-b57e-a1b82a1655ea/scratchpad/venv/bin/pip install *)"
     ]
   }
 }
