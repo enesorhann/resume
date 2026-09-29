@@ -1,0 +1,209 @@
+\documentclass[11pt,a4paper]{extarticle}
+\pagenumbering{gobble}
+\usepackage[left=0.7in,right=0.7in,top=0.5in,bottom=0.5in]{geometry}
+% XeLaTeX ile derlenir: xelatex -jobname=enesorhan_resume_tr_final enesorhan_resume_tr_duzenlenmis.tex
+% Gerçek Türkçe glifleri (ğ, ş, ı, İ) sayesinde metin ATS tarafından doğru okunur.
+\usepackage{fontspec}
+\setmainfont{Helvetica Neue}
+\usepackage[turkish,shorthands=off]{babel}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage[unicode]{hyperref}
+
+
+\definecolor{accent}{HTML}{1A365D}
+\definecolor{muted}{HTML}{4A5568}
+\definecolor{rulecol}{HTML}{B8C4D4}
+
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,
+            pdftitle={Enes Orhan - Backend Developer},pdfauthor={Enes Orhan}}
+
+%% ---- Gövde yazısı: 10,5 pt, sola hizalı, kelime bölme yok ---------------
+\AtBeginDocument{%
+  \fontsize{10.5}{13.6}\selectfont
+  \raggedright
+  \hyphenpenalty=10000 \exhyphenpenalty=10000
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%% ---- Bölüm başlıkları ----------------------------------------------------
+\titleformat{\section}
+  {\large\bfseries\color{accent}}{}{0em}{}
+  [\vspace{-2pt}{\color{rulecol}\titlerule[0.8pt]}]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+
+%% ---- Yapı taşları --------------------------------------------------------
+\newcommand{\sep}{\ \textperiodcentered\ }
+\newcommand{\ca}{\textasciitilde}
+
+% Bölünmeyen blok: bir deneyim/proje sayfalar arasında ikiye ayrılmaz
+\newenvironment{block}[1][]
+  {\par\noindent\begin{minipage}[t]{\linewidth}\raggedright
+   \hyphenpenalty=10000 \exhyphenpenalty=10000
+   \if\relax\detokenize{#1}\relax\else\vspace{4pt}\section{#1}\fi}
+  {\end{minipage}\par\vspace{7pt}}
+
+% Başlık satırı: ad (kalın) + sağda tarih
+\newcommand{\head}[2]{{\bfseries #1}\hfill{\color{muted}#2}\par}
+% Alt satır: rol, konum, bağlantılar
+\newcommand{\sub}[1]{{\color{muted}\itshape #1}\par}
+% Bağlam cümlesi
+\newcommand{\ctx}[1]{\vspace{2pt}{\color{muted}#1}\par}
+% Teknoloji satırı
+\newcommand{\tech}[1]{\vspace{2pt}{\small\color{muted}#1}\par}
+
+\setlist[itemize]{leftmargin=1.1em,label=\textbullet,itemsep=2pt,topsep=3pt,parsep=0pt,partopsep=0pt}
+
+\begin{document}
+
+%% ======================= BAŞLIK =======================
+\begin{center}
+{\fontsize{22}{26}\selectfont\bfseries\color{accent}Enes Orhan}\\[5pt]
+{\large\color{muted}Backend Developer\;{\color{rulecol}\textbar}\;C\#, ASP.NET Core, Django}\\[6pt]
+Adana, Türkiye\sep
+\href{tel:+905077561488}{+90 507 756 14 88}\sep
+\href{mailto:enesorhann404@gmail.com}{enesorhann404@gmail.com}\\[2pt]
+\href{https://linkedin.com/in/enesorhann}{linkedin.com/in/enesorhann}\sep
+\href{https://github.com/enesorhann}{github.com/enesorhann}\sep
+\href{https://enesorhan.com}{enesorhan.com}
+\end{center}
+
+%% ======================= ÖZET =======================
+\section{Özet}
+2026'da Konya Teknik Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum ve backend geliştirmeye odaklanıyorum.
+C\# ve ASP.NET Core ile App Store ve Google Play'de yayında olan, gerçek kullanıcıları bulunan iki uygulamanın backend'ini geliştirdim.
+Profesyonel deneyimimi Django ile edindim: bir fiyat karşılaştırma platformunda üç kişilik ekipte, ardından bir B2B ihale
+platformunda backend'in ana geliştiricisi olarak çalıştım. Projelerimi Git ile yönetiyor, Docker ve Kubernetes ile yayına alıyorum.
+
+%% ======================= .NET PROJELERİ =======================
+\begin{block}[Yayındaki ASP.NET Core Projeleri]
+\head{Zerbook}{Mart 2026 -- Halen}
+\sub{Kişisel ürün\sep Altın birikimi takibi\sep 36 kayıtlı kullanıcı\sep
+\href{https://apps.apple.com/tr/app/zerbook-alt\%C4\%B1n-takip-portf\%C3\%B6y/id6800002144?l=tr}{App Store} /
+\href{https://play.google.com/store/apps/details?id=com.zerbook.zerbook_mobile}{Google Play}}
+\begin{itemize}
+\item Kullanıcıların altın birikimlerini kaydedip güncel fiyatla değerini gördüğü REST API'yi katmanlı bir mimariyle geliştirdim.
+\item Ailelerin birikimlerini birlikte takip etmesi için davet kodlu gruplar, üye rolleri ve üyeler arası transfer ekledim.
+\item Miktar ve fiyatları tamsayı birimlerde (mikrogram, adet, kuruş) tutarak kayan nokta kaynaklı hassasiyet hatalarını önledim.
+\item Fiyatları dakikada bir güncelleyen arka plan servisini kurdum. E-posta, telefon, Google ve Apple girişlerini
+      Firebase üzerinden API'nin JWT oturumuna bağladım.
+\end{itemize}
+\tech{C\#\sep ASP.NET Core\sep EF Core\sep PostgreSQL\sep JWT\sep Firebase\sep xUnit\sep Docker\sep Kubernetes}
+\end{block}
+
+\begin{block}
+\head{Entegram}{Nisan 2026 -- Halen}
+\sub{Kişisel ürün\sep İngilizce öğrenme uygulaması\sep 57 kayıtlı kullanıcı\sep
+\href{https://apps.apple.com/tr/app/entegram-kayd\%C4\%B1r-\%C3\%B6\%C4\%9Fren/id6766254758?l=tr}{App Store} /
+\href{https://play.google.com/store/apps/details?id=com.enesorhan.gibigram.gibigram_mobile}{Google Play}}
+\begin{itemize}
+\item Kullanıcıların eş zamanlı yarıştığı quiz düellolarını ve anlık mesajlaşmayı SignalR ile geliştirdim.
+\item Kaydedilen kelimeleri SM-2 algoritmasıyla tekrar zamanına göre planlayan sistemi test edilebilir biçimde yazdım.
+\item iOS ve Android aboneliklerini RevenueCat ile backend'de eşitledim; premium erişimi sunucu tarafında kontrol ediyorum.
+\item Bildirim kampanyaları gibi zamanlanmış işleri, sunucu yeniden başlasa da kaybolmayacak şekilde Hangfire ile çalıştırdım.
+\end{itemize}
+\tech{C\#\sep ASP.NET Core\sep SignalR\sep Hangfire\sep PostgreSQL\sep RevenueCat\sep Docker\sep Kubernetes}
+\end{block}
+
+%% ======================= DENEYİM =======================
+\begin{block}[Deneyim]
+\head{BidsForShips\sep\href{https://bidsforships.com}{bidsforships.com}}{Ekim 2025 -- Şubat 2026}
+\sub{Full Stack Developer (Freelance)\sep Uzaktan}
+\ctx{B2B denizcilik ihale platformu. Kurucunun hazırladığı Django altyapısı üzerinde backend'in büyük bölümünü geliştirdim;
+frontend'de bir geliştiriciyle birlikte çalıştım.}
+\begin{itemize}
+\item Teklif isteme, teklif verme, kısa liste, kabul ve imzalı sözleşme aşamalarından oluşan ihale sürecini
+      rol bazlı yetki ve NDA kontrolleriyle geliştirdim.
+\item Teklif ve ekipman revizyonlarının geçmişini saklayan yapıyı kurdum; taraflar belgelerdeki değişiklikleri takip edebiliyor.
+\item Ana ve alt şirket yapısını, şirket yöneticisi davetini ve tedarikçi malzeme talebi modülünü geliştirdim;
+      3.000+ şirket kaydını Excel'den aktaran komutu yazdım.
+\item E-posta bildirimlerini Celery ile arka plana taşıdım; Next.js ve TypeScript ile panel ve teklif ekranlarını geliştirdim.
+\end{itemize}
+\ctx{Kaynak kodlar Fiyator’un şirket GitHub organizasyonundaki özel reposunda bulunuyor.}
+\tech{Python\sep Django REST Framework\sep PostgreSQL\sep Celery\sep Elasticsearch\sep Next.js\sep TypeScript\sep Kubernetes}
+\end{block}
+
+\begin{block}
+\head{Fiyator A.Ş.\ \textmd{(Ankara)}}{Haziran 2025 -- Ekim 2025}
+\sub{Software Engineer Intern, ardından Freelance\sep Uzaktan}
+\ctx{14M+ ürün kaydı olan fiyat karşılaştırma platformu. Kurucu, bir mobil geliştirici ve benden oluşan ekipte çalıştım.}
+\vspace{3pt}
+{\itshape Freelance}\hfill{\color{muted}Ağustos 2025 -- Ekim 2025}\par
+\begin{itemize}
+\item ikas, Ticimax ve XML kaynaklarından toplu ürün senkronizasyonu geliştirdim; değişmeyen kaynaklar atlanıyor,
+      kaldırılan ürünler pasife alınıyor.
+\item Fiyat değiştiğinde kullanıcıya push bildirimi, firma kaydı ve ödeme sorunlarında ekibe Slack bildirimi gönderen yapıyı ekledim.
+\end{itemize}
+\vspace{3pt}
+{\itshape Software Engineer Intern}\hfill{\color{muted}Haziran 2025 -- Ağustos 2025}\par
+\begin{itemize}
+\item PostgreSQL indeksleri, Redis önbelleği ve Elasticsearch üzerindeki çalışmalarla ortalama API yanıt süresinin
+      \ca{}450~ms'den \ca{}200~ms'ye inmesine katkı sağladım.
+\item Mağaza kategorilerini platform kategorileriyle eşleştiren servisi geliştirdim; 160 canlı örneklik test setinde
+      \%95 doğru eşleşme elde ettim.
+\item Tekrarlanan linkleri temizleyen ve stoğu biten ürünleri arama indeksiyle eşitleyen Django komutları yazdım.
+\item Flutter uygulamasının farklı ekran boyutlarına uyarlanmasında çalıştım; 45+ işlev ve arayüz sorununu tespit edip giderdim.
+\end{itemize}
+\ctx{Proje sonlandırıldı; kaynak kodlar şirketin özel GitHub reposunda bulunuyor.}
+\tech{Python\sep Django REST Framework\sep FastAPI\sep PostgreSQL\sep Redis\sep Elasticsearch\sep Celery\sep Flutter}
+\end{block}
+
+\begin{block}
+\head{Upwork}{Temmuz 2026 -- Halen}
+\sub{Software Engineer (Freelance)\sep Uzaktan}
+\begin{itemize}
+\item Müşteri projelerinde Flutter ile mobil uygulama geliştiriyor, mağaza yayınlarını yürütüyorum.
+\end{itemize}
+\end{block}
+
+%% ======================= DİĞER PROJELER =======================
+\begin{block}[Diğer Projeler]
+\head{Anket API\sep\href{https://github.com/enesorhann/Case-Study}{github.com/enesorhann/Case-Study}}{Temmuz 2026}
+Anket, soru ve cevap yönetimi sunan .NET 8 API'si (case study). Komutları ve sorguları MediatR ile ayırdım;
+anket olaylarını RabbitMQ ile arka plan servisine ilettim.
+\end{block}
+
+\begin{block}
+\head{Mail Sender Smart Edition\sep\href{https://mailsendersmartedition.com}{mailsendersmartedition.com}}{Ağustos 2025 -- Haziran 2026}
+Kullanıcılara kendi alan adımızda e-posta kutusu sunan Django REST API'yi geliştirdim. Gönderim, kurduğum Postfix sunucusundan
+SPF, DKIM ve DMARC uyumlu yapılıyor. 65 kayıtlı kullanıcısı olan uygulama
+\href{https://apps.apple.com/us/app/mail-sender-smart-edition/id6758946829}{App Store} ve
+\mbox{\href{https://play.google.com/store/apps/details?id=com.mailsendersmartedition.enpa}{Google Play}'de} yayında.
+\end{block}
+
+\begin{block}
+\head{CompAtlas\sep\href{https://compatlas.com.tr/}{compatlas.com.tr}}{Temmuz 2026 -- Halen}
+Türkiye'nin 81 ilindeki 17K+ teknoloji firmasının verisini OSM, Google Places ve Overture Maps'ten topladım;
+kayıtları temizleyip tekilleştirdim ve LLM ile sınıflandırdım. Platforma kayıt olan firma sayısı artıyor;
+Türkiye pazarını araştırmak isteyen yurt dışındaki müşterilerden de destek talepleri geliyor.
+\end{block}
+
+%% ======================= YETENEKLER =======================
+\begin{block}[Teknik Yetenekler]
+\renewcommand{\arraystretch}{1.25}
+\noindent\begin{tabular}{@{}>{\raggedright\arraybackslash\bfseries}p{0.22\linewidth}@{}>{\raggedright\arraybackslash}p{0.78\linewidth}@{}}
+.NET & C\#, ASP.NET Core Web API, EF Core, SignalR, Hangfire, MediatR, xUnit\\
+Python & Django REST Framework, FastAPI, Celery\\
+Veri ve mesajlaşma & PostgreSQL, Redis, Elasticsearch, RabbitMQ\\
+Mimari ve API & Katmanlı mimari, Repository pattern, CQRS, REST API tasarımı, JWT, RBAC\\
+Araçlar ve DevOps & Git, GitHub Actions, Docker, Kubernetes, Linux, Swagger / OpenAPI, Postman\\
+Diğer & TypeScript, Next.js, Flutter, Firebase\\
+\end{tabular}
+\end{block}
+
+%% ======================= EĞİTİM =======================
+\begin{block}[Eğitim]
+\head{Konya Teknik Üniversitesi}{Ağustos 2022 -- Haziran 2026}
+Bilgisayar Mühendisliği (Lisans)\sep Genel not ortalaması 3.39 / 4.00\par
+\vspace{3pt}
+Sertifikalar:
+\href{https://drive.google.com/file/d/1btYql9fKCvBwqHeh06F_NE257FhceNCB/view}{Sertifika portföyü}\sep
+\href{https://drive.google.com/file/d/12AcWLnSGEfcZUWUb945n6nD-iPB7aIA9/view?usp=sharing}{Teknofest Katılım Belgesi}\par
+\vspace{3pt}
+Referans: Doç. Dr. Sait Ali Uymaz, Konya Teknik Üniversitesi Bilgisayar Mühendisliği
+\end{block}
+
+\end{document}

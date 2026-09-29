@@ -1,0 +1,97 @@
+Pages: 2
+PAGE 1
+Enes Orhan
+Backend Developer | C#, ASP.NET Core, Django
+Adana, Türkiye · +90 507 756 14 88 · enesorhann404@gmail.com
+linkedin.com/in/enesorhann · github.com/enesorhann · enesorhan.com
+Özet
+2026’da Konya Teknik Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum ve backend
+geliştirmeye odaklanıyorum. C# ve ASP.NET Core ile App Store ve Google Play’de yayında olan, gerçek
+kullanıcıları bulunan iki uygulamanın backend’ini geliştirdim. Profesyonel deneyimimi Django ile edindim:
+bir fiyat karşılaştırma platformunda üç kişilik ekipte, ardından bir B2B ihale platformunda backend’in ana
+geliştiricisi olarak çalıştım. Projelerimi Git ile yönetiyor, Docker ve Kubernetes ile yayına alıyorum.
+Yayındaki ASP.NET Core Projeleri
+Zerbook Mart 2026 – Halen
+Kişisel ürün · Altın birikimi takibi · 36 kayıtlı kullanıcı · App Store / Google Play
+• Kullanıcıların altın birikimlerini kaydedip güncel fiyatla değerini gördüğü REST API’yi katmanlı bir
+mimariyle geliştirdim.
+• Ailelerin birikimlerini birlikte takip etmesi için davet kodlu gruplar, üye rolleri ve üyeler arası transfer
+ekledim.
+• Miktar ve fiyatları tamsayı birimlerde (mikrogram, adet, kuruş) tutarak kayan nokta kaynaklı hassasiyet
+hatalarını önledim.
+• Fiyatları dakikada bir güncelleyen arka plan servisini kurdum. E-posta, telefon, Google ve Apple
+girişlerini Firebase üzerinden API’nin JWT oturumuna bağladım.
+C# · ASP.NET Core · EF Core · PostgreSQL · JWT · Firebase · xUnit · Docker · Kubernetes
+Entegram Nisan 2026 – Halen
+Kişisel ürün · İngilizce öğrenme uygulaması · 57 kayıtlı kullanıcı · App Store / Google Play
+• Kullanıcıların eş zamanlı yarıştığı quiz düellolarını ve anlık mesajlaşmayı SignalR ile geliştirdim.
+• Kaydedilen kelimeleri SM-2 algoritmasıyla tekrar zamanına göre planlayan sistemi test edilebilir biçimde
+yazdım.
+• iOS ve Android aboneliklerini RevenueCat ile backend’de eşitledim; premium erişimi sunucu tarafında
+kontrol ediyorum.
+• Bildirim kampanyaları gibi zamanlanmış işleri, sunucu yeniden başlasa da kaybolmayacak şekilde
+Hangfire ile çalıştırdım.
+C# · ASP.NET Core · SignalR · Hangfire · PostgreSQL · RevenueCat · Docker · Kubernetes
+Deneyim
+BidsForShips · bidsforships.com Ekim 2025 – Şubat 2026
+Full Stack Developer (Freelance) · Uzaktan
+B2B denizcilik ihale platformu. Kurucunun hazırladığı Django altyapısı üzerinde backend’in büyük
+bölümünü geliştirdim; frontend’de bir geliştiriciyle birlikte çalıştım.
+• Teklif isteme, teklif verme, kısa liste, kabul ve imzalı sözleşme aşamalarından oluşan ihale sürecini rol
+bazlı yetki ve NDA kontrolleriyle geliştirdim.
+• Teklif ve ekipman revizyonlarının geçmişini saklayan yapıyı kurdum; taraflar belgelerdeki değişiklikleri
+takip edebiliyor.
+• Ana ve alt şirket yapısını, şirket yöneticisi davetini ve tedarikçi malzeme talebi modülünü geliştirdim;
+3.000+ şirket kaydını Excel’den aktaran komutu yazdım.
+• E-posta bildirimlerini Celery ile arka plana taşıdım; Next.js ve TypeScript ile panel ve teklif ekranlarını
+geliştirdim.
+Kaynak kodlar Fiyator’un şirket GitHub organizasyonundaki özel reposunda bulunuyor.
+Python · Django REST Framework · PostgreSQL · Celery · Elasticsearch · Next.js · TypeScript · Kubernetes
+PAGE 2
+Fiyator A.Ş. (Ankara) Haziran 2025 – Ekim 2025
+Software Engineer Intern, ardından Freelance · Uzaktan
+14M+ ürün kaydı olan fiyat karşılaştırma platformu. Kurucu, bir mobil geliştirici ve benden oluşan ekipte
+çalıştım.
+Freelance Ağustos 2025 – Ekim 2025
+• ikas, Ticimax ve XML kaynaklarından toplu ürün senkronizasyonu geliştirdim; değişmeyen kaynaklar
+atlanıyor, kaldırılan ürünler pasife alınıyor.
+• Fiyat değiştiğinde kullanıcıya push bildirimi, firma kaydı ve ödeme sorunlarında ekibe Slack bildirimi
+gönderen yapıyı ekledim.
+Software Engineer Intern Haziran 2025 – Ağustos 2025
+• PostgreSQL indeksleri, Redis önbelleği ve Elasticsearch üzerindeki çalışmalarla ortalama API yanıt
+süresinin ~450 ms’den ~200 ms’ye inmesine katkı sağladım.
+• Mağaza kategorilerini platform kategorileriyle eşleştiren servisi geliştirdim; 160 canlı örneklik test setinde
+%95 doğru eşleşme elde ettim.
+• Tekrarlanan linkleri temizleyen ve stoğu biten ürünleri arama indeksiyle eşitleyen Django komutları
+yazdım.
+• Flutter uygulamasının farklı ekran boyutlarına uyarlanmasında çalıştım; 45+ işlev ve arayüz sorununu
+tespit edip giderdim.
+Proje sonlandırıldı; kaynak kodlar şirketin özel GitHub reposunda bulunuyor.
+Python · Django REST Framework · FastAPI · PostgreSQL · Redis · Elasticsearch · Celery · Flutter
+Upwork Temmuz 2026 – Halen
+Software Engineer (Freelance) · Uzaktan
+• Müşteri projelerinde Flutter ile mobil uygulama geliştiriyor, mağaza yayınlarını yürütüyorum.
+Diğer Projeler
+Anket API · github.com/enesorhann/Case-Study Temmuz 2026
+Anket, soru ve cevap yönetimi sunan .NET 8 API’si (case study). Komutları ve sorguları MediatR ile ayırdım;
+anket olaylarını RabbitMQ ile arka plan servisine ilettim.
+Mail Sender Smart Edition · mailsendersmartedition.com Ağustos 2025 – Haziran 2026
+Kullanıcılara kendi alan adımızda e-posta kutusu sunan Django REST API’yi geliştirdim. Gönderim,
+kurduğum Postfix sunucusundan SPF, DKIM ve DMARC uyumlu yapılıyor. 65 kayıtlı kullanıcısı olan
+uygulama App Store ve Google Play’de yayında.
+CompAtlas · compatlas.com.tr Temmuz 2026 – Halen
+Türkiye’nin 81 ilindeki 17K+ teknoloji firmasının verisini OSM, Google Places ve Overture Maps’ten
+topladım; kayıtları temizleyip tekilleştirdim ve LLM ile sınıflandırdım. Platforma kayıt olan firma sayısı
+artıyor; Türkiye pazarını araştırmak isteyen yurt dışındaki müşterilerden de destek talepleri geliyor.
+Teknik Yetenekler
+.NET C#, ASP.NET Core Web API, EF Core, SignalR, Hangfire, MediatR, xUnit
+Python Django REST Framework, FastAPI, Celery
+Veri ve mesajlaşma PostgreSQL, Redis, Elasticsearch, RabbitMQ
+Mimari ve API Katmanlı mimari, Repository pattern, CQRS, REST API tasarımı, JWT, RBAC
+Araçlar ve DevOps Git, GitHub Actions, Docker, Kubernetes, Linux, Swagger / OpenAPI, Postman
+Diğer TypeScript, Next.js, Flutter, Firebase
+Eğitim
+Konya Teknik Üniversitesi Bilgisayar Mühendisliği (Lisans) · Genel not ortalaması 3.39 / 4.00
+Sertifikalar: Sertifika portföyü · Teknofest Katılım Belgesi
+Referans: Doç. Dr. Sait Ali Uymaz, Konya Teknik Üniversitesi Bilgisayar Mühendisliği
+Ağustos 2022 – Haziran 2026

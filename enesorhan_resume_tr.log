@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  21 AUG 2026 12:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  3 SEP 2026 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,18 +318,18 @@ Package hyperref Info: Link coloring ON on input line 51.
 \openout3 = `enesorhan_resume_tr.out'.
 
 Package babel Info: Main language set to 'turkish'.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 58.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 56.
  (/Users/Developeng/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 73.
+(Font)              <7> on input line 74.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 73.
+(Font)              <5> on input line 74.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 74.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 83.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 82.
  [1
 
 {/Users/Developeng/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/Developeng/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./enesorhan_resume_tr.aux)
@@ -343,16 +343,16 @@ Package rerunfilecheck Info: File `enesorhan_resume_tr.out' has not changed.
 Here is how much of TeX's memory you used:
  11327 strings out of 469074
  182214 string characters out of 5457079
- 643411 words of memory out of 5000000
+ 647345 words of memory out of 5000000
  40270 multiletter control sequences out of 15000+600000
  662394 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,7n,79p,297b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/Developeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users/Developeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></Users/Developeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/Developeng/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on enesorhan_resume_tr.pdf (1 page, 48001 bytes).
+Output written on enesorhan_resume_tr.pdf (1 page, 49357 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

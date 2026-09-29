@@ -17,13 +17,13 @@
 \definecolor{rulecol}{HTML}{B8C4D4}
 
 \hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,
-            pdftitle={Enes Orhan - Mobile and Backend Engineer},pdfauthor={Enes Orhan}}
+            pdftitle={Enes Orhan - Software Engineer},pdfauthor={Enes Orhan}}
 
 %% ---- Section hierarchy -------------------------------------------------
 \titleformat{\section}
   {\large\bfseries\scshape\color{accent}\raggedright}{}{0em}{}
   [\vspace{-1pt}{\color{rulecol}\titlerule[0.9pt]}]
-\titlespacing*{\section}{0pt}{7pt}{4pt}
+\titlespacing*{\section}{0pt}{3pt}{2pt}
 
 %% ---- Building blocks ---------------------------------------------------
 \newcommand{\sep}{\;\textperiodcentered\;}
@@ -45,14 +45,14 @@
 \newcommand{\tech}[1]{{\footnotesize\color{muted}#1}}
 
 \newlist{bullets}{itemize}{1}
-\setlist[bullets]{leftmargin=1.1em,label=\textbullet,itemsep=2pt,topsep=2pt,parsep=0pt}
+\setlist[bullets]{leftmargin=1.1em,label=\textbullet,itemsep=1pt,topsep=1pt,parsep=0pt}
 
 \begin{document}
 
 %% ======================= HEADER =======================
 \begin{center}
 {\fontsize{23}{27}\selectfont\bfseries\color{accent}Enes Orhan}\\[4pt]
-{\large\color{muted}Mobile \& Backend Engineer}\\[8pt]
+{\large\color{muted}Software Engineer}\;{\color{rulecol}\textbar}\;{\color{muted}Backend \& Mobile \textperiodcentered\ C\#/.NET \textperiodcentered\ Flutter}\\[6pt]
 {\small
 \href{tel:+905077561488}{+90 507 756 14 88}\sep
 \href{mailto:enesorhann404@gmail.com}{enesorhann404@gmail.com}\sep
@@ -63,56 +63,67 @@
 
 %% ======================= SUMMARY =======================
 \section{Summary}
-I build user-focused mobile applications and scalable backend systems. I have end-to-end development
-experience, from mobile product development to backend services and infrastructure.
+Software Engineer with production experience across backend and mobile. Current focus is C\#/.NET and Flutter; previously built
+and operated Django REST and FastAPI services on PostgreSQL, Redis and Elasticsearch with Docker and Kubernetes. I ship
+mobile apps end to end, App Store and Google Play releases included.
 
 %% ======================= EXPERIENCE =======================
 \section{Experience}
 
-\entry{Freelance Software Engineer}{Remote}
-\subentry{Software Engineer}{Oct 2025 -- Feb 2026}
+\entry{Upwork}{Remote}
+\subentry{Software Engineer -- Freelance}{Jul 2026 -- Present}
 \begin{bullets}
-\item Built a multi-tenant Django REST backend with RBAC for 3,000+ companies and \ca{}100 active users.
-\item Implemented payment integration for Param and PayTR with transaction validation and callbacks.
-\item Configured and ran a production mail server (Postfix + Dovecot) with SPF, DKIM and DMARC.
-\item Set up Kubernetes clusters with kubeadm and handled deployments and debugging with kubectl.
+\item Build, test and ship cross-platform Flutter apps for clients, including technical troubleshooting.
+\item Run App Store and Google Play submissions end to end, with store listing and ASO optimization.
 \end{bullets}
 
-\vspace{4pt}
+\vspace{2pt}
 \entry{Fiyator A.Ş. \textit{(Ankara, Türkiye)}\sep\href{https://fiyator.com}{fiyator.com}}{Remote}
-\subentry{Software Engineer Intern}{Jun 2025 -- Oct 2025}
+\subentry{Software Engineer}{Nov 2025 -- Feb 2026}
+\begin{bullets}
+\item Independently built \textbf{BidsForShips}, a multi-tenant B2B maritime tender platform for 3,000+ companies.
+\item Django REST backend on PostgreSQL, Redis, Celery and Elasticsearch, with tenant-aware RBAC.
+\item Integrated Param and PayTR payments with transaction validation and callback handling.
+\item Deployed and ran production on Kubernetes with Docker, Hetzner, Cloudflare and CI/CD.
+\item Operated a self-hosted Postfix + Dovecot mail server with SPF, DKIM and DMARC.
+\end{bullets}
+
+\vspace{1pt}
+\subentry{Software Engineer -- Freelance}{Aug 2025 -- Oct 2025}
+\begin{bullets}
+\item Extended Django REST and FastAPI services on PostgreSQL and Redis, shipping API improvements and fixes.
+\end{bullets}
+
+\vspace{1pt}
+\subentry{Software Engineer Intern}{Jun 2025 -- Aug 2025}
 \begin{bullets}
 \item Worked on backend systems with 14M+ product records, 12M+ images and 529K+ categories.
 \item Reduced average API response from \ca{}450ms to \ca{}200ms with PostgreSQL indexing, Redis and Elasticsearch.
-\item Built a Django + FastAPI category matching service with 95\% accuracy using Semantic Transformers.
+\item Built a Django REST + FastAPI category matching service with 95\% accuracy using Semantic Transformers.
 \item Designed FAISS vector search with Redis caching and a FastAPI service running Ollama (gemma3n:e2b).
-\item Led the Flutter mobile redesign and documented 45+ functional and UI issues in the app.
+\item Worked on the Flutter redesign, documented 45+ functional and UI issues in the app.
 \item Found and fixed a subscription validation bug that let expired premium users keep access.
 \end{bullets}
 
 %% ======================= PROJECTS =======================
 \section{Projects}
-\begin{bullets}[itemsep=3pt]
-
-\item \textbf{BidsForShips}\sep\href{https://bidsforships.com}{bidsforships.com}\\
-B2B tender and bidding platform for the maritime industry, with a multi-tenant backend.\\[2pt]
-\tech{Django\sep PostgreSQL\sep Redis\sep Celery\sep Elasticsearch\sep Docker\sep Kubernetes\sep Hetzner}
+\begin{bullets}[itemsep=1pt]
 
 \item \textbf{Zerbook}\hfill{\color{muted}Present}\\
-Gold portfolio tracking app built with Flutter. I build the .NET backend and manage store releases.\\[2pt]
-\tech{Flutter\sep Dart\sep .NET\sep PostgreSQL\sep Firebase\sep Docker\sep Kubernetes\sep App Store\sep Google Play}
+Gold portfolio tracking app in Flutter; I build the ASP.NET Core backend and manage store releases.\\[0.5pt]
+\tech{Flutter\sep ASP.NET Core\sep EF Core\sep JWT\sep SignalR\sep PostgreSQL\sep Background Workers\sep Docker\sep Kubernetes}
 
 \item \textbf{Entegram}\sep\href{https://apps.apple.com/tr/app/entegram-kayd\%C4\%B1r-\%C3\%B6\%C4\%9Fren/id6766254758?l=tr}{App Store} / \href{https://play.google.com/store/apps/details?id=com.enesorhan.gibigram.gibigram_mobile}{Play Store}\\
-English learning app built around short, swipe-based lessons using Flutter and ASP.NET Core.\\[2pt]
-\tech{Flutter\sep ASP.NET Core\sep PostgreSQL\sep Firebase\sep Docker\sep Kubernetes}
+English learning app built around short, swipe-based lessons; published on iOS and Android.\\[0.5pt]
+\tech{Flutter\sep ASP.NET Core\sep SignalR\sep Firebase\sep Subscriptions\sep Deep Links\sep Background Processing}
 
 \item \textbf{Mail Sender Smart Edition}\sep\href{https://mailsendersmartedition.com}{mailsendersmartedition.com}\\
-AI-powered bulk email management platform.\\[2pt]
-\tech{Flutter\sep Django\sep PostgreSQL\sep Gemini 2.5 Flash\sep Postfix + Dovecot\sep Docker\sep Kubernetes}
+AI-assisted bulk email platform running on a self-hosted mail server.\\[0.5pt]
+\tech{Flutter\sep Django\sep Celery\sep Redis\sep Gemini\sep Postfix + Dovecot\sep SPF/DKIM/DMARC\sep Docker\sep Kubernetes}
 
 \item \textbf{CompAtlas}\sep\href{https://compatlas.com.tr/}{compatlas.com.tr}\hfill{\color{muted}Present}\\
-Data platform I build on my own, covering 17K+ tech companies across Türkiye's 81 provinces.\\[2pt]
-\tech{Next.js\sep Supabase\sep SEO/GEO\sep OSM\sep Google Places\sep Overture Maps}
+Solo-built data platform: 17K+ tech companies in 81 provinces, with normalization, dedup and geospatial processing.\\[0.5pt]
+\tech{Next.js\sep Supabase\sep OSM\sep Google Places\sep Overture Maps\sep SEO/GEO}
 
 \item \textbf{Özyalçınlar Kereste}\sep Corporate website for a timber company, developed with React {\color{muted}(in progress)}.
 
@@ -120,20 +131,20 @@ Data platform I build on my own, covering 17K+ tech companies across Türkiye's 
 
 %% ======================= SKILLS =======================
 \section{Technical Skills}
-\renewcommand{\arraystretch}{1.12}
-\noindent\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.15\textwidth}@{}>{\raggedright\arraybackslash}p{0.85\textwidth}@{}}
-\textbf{Languages} & Python, Dart, C\#, Kotlin, Java\\
-\textbf{Mobile \& Web} & Flutter, Firebase, Next.js, React, Supabase, App Store \& Google Play releases\\
-\textbf{Backend} & Django, DRF, FastAPI, ASP.NET Core, Celery, REST APIs, RBAC, JWT\\
-\textbf{Databases} & PostgreSQL, Redis, Elasticsearch, SQLite\\
-\textbf{DevOps} & Docker, Kubernetes (kubeadm), GitHub Actions, Linux, CI/CD, Hetzner\\
-\textbf{AI/ML} & LLM integration (Ollama, Gemini), FAISS vector search, Semantic Transformers\\
+\renewcommand{\arraystretch}{1.02}
+\noindent\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.16\textwidth}@{}>{\raggedright\arraybackslash}p{0.84\textwidth}@{}}
+\textbf{Languages} & C\#, Python, Dart, Kotlin, Java\\
+\textbf{Backend} & ASP.NET Core, EF Core, Django REST Framework, FastAPI, Celery, REST APIs, JWT, RBAC\\
+\textbf{Mobile \& Web} & Flutter, Firebase, App Store \& Google Play releases, Next.js, React, Supabase\\
+\textbf{Data} & PostgreSQL, Redis, Elasticsearch, SQLite\\
+\textbf{Infrastructure} & Docker, Kubernetes (kubeadm), GitHub Actions, Linux, CI/CD, Hetzner\\
+\textbf{AI \& Search} & LLM integration (Gemini, Ollama), FAISS vector search, semantic search\\
 \end{tabular}
 
 %% ======================= EDUCATION =======================
 \section{Education \& Certifications}
-\noindent\textbf{Konya Technical University}\sep B.Sc. Computer Engineering {\color{muted}\sep GPA 3.40 / 4.00}
-\hfill {\color{muted}Aug 2022 -- Jun 2026}\\[4pt]
+\noindent\textbf{Konya Technical University}\sep B.Sc. Computer Engineering {\color{muted}\sep GPA 3.39 / 4.00}
+\hfill {\color{muted}Aug 2022 -- Jun 2026}\\[3pt]
 \noindent\textbf{Certifications}\quad
 \href{https://drive.google.com/file/d/1btYql9fKCvBwqHeh06F_NE257FhceNCB/view}{Certificate portfolio}\sep
 \href{https://drive.google.com/file/d/12AcWLnSGEfcZUWUb945n6nD-iPB7aIA9/view?usp=sharing}{Teknofest Participation Certificate}
